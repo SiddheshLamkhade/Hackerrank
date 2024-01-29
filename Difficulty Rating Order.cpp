@@ -5,7 +5,8 @@ Input Format
         The first line contains a single integer NN, the number of problems solved by the students
         The second line contains NN space-separate integers, the difficulty ratings of the problems attempted by the students in order.
 Output Format
-    For each test case, output in a new line “Yes” if the problems are attempted in non-decreasing order of difficulty rating and “No” if not. The output should be printed without the quotes.
+    For each test case, output in a new line “Yes” if the problems are attempted in non-decreasing order of difficulty rating and “No” if not.
+    The output should be printed without the quotes.
 
 Each letter of the output may be printed in either lowercase or uppercase. For example, the strings yes, YeS, and YES will all be treated as equivalent.
 
@@ -14,9 +15,11 @@ Test case 11: 1≤2≤31≤2≤3. The students have solved problems in increasin
 
 Test case 22: 1≤1≤21≤1≤2. The students have solved problems in non-decreasing order, and so the answer is "Yes".
 
-Test case 33: 400>350400>350, but the students have solved a 400400-difficulty level problem before solving a 350350-difficulty problem. The students have not solved problems in non-decreasing order, and so the answer is "No".
+Test case 33: 400>350400>350, but the students have solved a 400400-difficulty level problem before solving a 350350-difficulty problem. 
+The students have not solved problems in non-decreasing order, and so the answer is "No".
 
-Test case 44: 5000>30005000>3000, but the students have solved a 50005000-difficulty level problem before solving a 30003000-difficulty problem. The students have not solved problems in non-decreasing order, and so the answer is "No".
+Test case 44: 5000>30005000>3000, but the students have solved a 50005000-difficulty level problem before solving a 30003000-difficulty problem. 
+The students have not solved problems in non-decreasing order, and so the answer is "No".
 
 
 */
